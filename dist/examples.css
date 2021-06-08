@@ -160,10 +160,10 @@ abbr,acronym { border: 0;
 	color: rgba(255, 255, 255, 0.473);
 }
 #menu li.active a:hover{
-	color: #000;
+	/* color: #000; */
 }
 #menu li:hover{
-	background: rgb(255, 255, 255);
+	/* background: rgb(255, 255, 255); */
 }
 #menu li a,
 #menu li.active a{
