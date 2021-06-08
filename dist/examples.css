@@ -174,6 +174,8 @@ abbr,acronym { border: 0;
 	color: #fff;
 }
 #menu{
+	font-family: 'Roboto', sans-serif;
+
 	position:fixed;
 	top:0;
 	left:0;
