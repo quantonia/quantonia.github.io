@@ -8,6 +8,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 a{
 	text-decoration:none;
+	color: deeppink;
 }
 table {
     border-spacing: 0;
@@ -78,6 +79,8 @@ abbr,acronym { border: 0;
 	align-items: center;
 	justify-content: center;
 	font-size: large;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
   }
   .Aligner-item {
 	width: 60%;
@@ -91,10 +94,27 @@ abbr,acronym { border: 0;
   .center-text{
 	  text-align:left;
 	  font-size: large;
+	  font-weight: lighter;
 	  width: 60%;
 	  margin-left: auto;
 	  margin-right: auto;
+	  font-family: 'Roboto', sans-serif;
+	  /* font-weight: 400; */
   }
+  .citation {
+	  width: 60%;
+	  text-align: right;
+	  font-weight: lighter;
+	  margin-left: auto;
+	  margin-right: auto;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	
+  }
+
+  /* cite{
+	  font-style: italic;
+  } */
   
   @media (max-width: 600px) {
 	.grid-flex {
@@ -140,10 +160,10 @@ abbr,acronym { border: 0;
 	color: rgba(255, 255, 255, 0.473);
 }
 #menu li.active a:hover{
-	/* color: #000; */
+	color: #000;
 }
 #menu li:hover{
-	/* background: rgb(255, 255, 255); */
+	background: rgb(255, 255, 255);
 }
 #menu li a,
 #menu li.active a{
