@@ -78,12 +78,12 @@ abbr,acronym { border: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: large;
+	font-size: x-large;
 	font-weight: lighter;
 	font-family: 'Roboto', sans-serif;
   }
   .Aligner-item {
-	width: 60%;
+	width: 80%;
   }
   .col-image {
 	background-size: cover;
@@ -93,7 +93,7 @@ abbr,acronym { border: 0;
 
   .center-text{
 	  text-align:left;
-	  font-size: large;
+	  font-size: x-large;
 	  font-weight: lighter;
 	  width: 60%;
 	  margin-left: auto;
@@ -109,6 +109,7 @@ abbr,acronym { border: 0;
 	  margin-right: auto;
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
+	font-size: large;
 	
   }
 
@@ -140,6 +141,10 @@ abbr,acronym { border: 0;
 	}
   }
   
+  ul {
+	justify-content: center;
+	display: flex;
+  }
   
   #menu li {
 	display:inline-block;
@@ -163,7 +168,7 @@ abbr,acronym { border: 0;
 	/* color: #000; */
 }
 #menu li:hover{
-	/* background: rgb(255, 255, 255); */
+	background: rgba(255, 255, 255, 0.007);
 }
 #menu li a,
 #menu li.active a{
@@ -184,6 +189,7 @@ abbr,acronym { border: 0;
 	width: 100%;
 	padding: 0;
 	margin:0;
+	align-items: center;
 }
 
 body{
@@ -199,4 +205,3 @@ body{
 	width: 960px;
 	position: relative;
 }
-
