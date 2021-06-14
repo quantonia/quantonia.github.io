@@ -199,6 +199,12 @@ body{
 	text-align: center;
 	color: #fff;
 }
+.buy{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: x-large;
+	color: deeppink;
+}
 .wrap{
 	margin-left: auto;
 	margin-right: auto;
