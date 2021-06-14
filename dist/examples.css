@@ -78,7 +78,7 @@ abbr,acronym { border: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: x-large;
+	font-size: large;
 	font-weight: lighter;
 	font-family: 'Roboto', sans-serif;
   }
@@ -86,14 +86,17 @@ abbr,acronym { border: 0;
 	width: 80%;
   }
   .col-image {
-	background-size: cover;
+	background-size:cover;
 	background-position:center center;
 	padding: 3em;
+  }
+  img{
+	max-width:100%
   }
 
   .center-text{
 	  text-align:left;
-	  font-size: x-large;
+	  font-size: large;
 	  font-weight: lighter;
 	  width: 60%;
 	  margin-left: auto;
