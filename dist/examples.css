@@ -142,6 +142,16 @@ abbr,acronym { border: 0;
 	.Aligner-item {
 	  width: 90%;
 	}
+	.center-text{
+		text-align:left;
+		/* font-size: large; */
+		font-weight: lighter;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Roboto', sans-serif;
+		/* font-weight: 400; */
+	}
   }
   
   ul {
