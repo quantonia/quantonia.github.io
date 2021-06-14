@@ -91,7 +91,7 @@ abbr,acronym { border: 0;
 	padding: 3em;
   }
   img{
-	max-width:100%
+	max-width:100%;
   }
 
   .center-text{
@@ -120,9 +120,10 @@ abbr,acronym { border: 0;
 	  font-style: italic;
   } */
   
-  @media (max-width: 600px) {
+  @media (max-width: 570px) {
 	.grid-flex {
-	  height: 40em;
+	  /* height: 60em; */
+	  /* height: auto; */
 	  display: -webkit-flex;
 	  -webkit-flex-direction: column;
 	  flex-direction: column; 
@@ -175,7 +176,7 @@ abbr,acronym { border: 0;
 }
 #menu li a{
 	text-decoration:none;
-	color: rgba(255, 255, 255, 0.473);
+	color: rgba(255, 20, 145, 0.5);
 }
 #menu li.active a:hover{
 	/* color: #000; */
