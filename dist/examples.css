@@ -104,6 +104,25 @@ abbr,acronym { border: 0;
 	  font-family: 'Roboto', sans-serif;
 	  /* font-weight: 400; */
   }
+
+  .info-text{
+	padding: 70px 0;
+	text-align:left;
+	width: 60%;
+	margin: auto;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+.info-text-2{
+	padding: 70px 0;
+	text-align:left;
+	width: 60%;
+	margin: auto;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+}
   .citation {
 	  width: 60%;
 	  text-align: right;
@@ -218,6 +237,15 @@ body{
 	text-align: center;
 	font-size: x-large;
 	color: #B09BD9;
+	margin: 30px;
+}
+.buy-details{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: medium;
+	font-weight: lighter;
+	color: hsla(260, 45%, 73%, 0.5);
 }
 .wrap{
 	margin-left: auto;
