@@ -108,7 +108,7 @@ abbr,acronym { border: 0;
   .info-text{
 	padding: 70px 0;
 	text-align:left;
-	width: 60%;
+	width: 80%;
 	margin: auto;
 	font-weight: lighter;
 	font-family: 'Roboto', sans-serif;
@@ -116,8 +116,8 @@ abbr,acronym { border: 0;
 }
 .info-text-2{
 	padding: 70px 0;
-	text-align:left;
-	width: 60%;
+	text-align:center;
+	width: 80%;
 	margin: auto;
 	font-weight: lighter;
 	font-family: 'Roboto', sans-serif;
@@ -131,7 +131,7 @@ abbr,acronym { border: 0;
 	  margin-right: auto;
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
-	font-size: large;
+	font-size: larger;
 	
   }
 
