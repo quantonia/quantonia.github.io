@@ -237,14 +237,15 @@ body{
 	text-align: center;
 	font-size: x-large;
 	color: #B09BD9;
-	margin: 30px;
 }
 .buy-details{
 	display: block;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	font-size: medium;
+	font-size: small;
 	font-weight: lighter;
+	margin: 40px;
+
 	color: hsla(260, 45%, 73%, 0.733);
 }
 .wrap{
