@@ -8,7 +8,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 a{
 	text-decoration:none;
-	color: #B09BD9;
+	color: hsl(0, 0%, 50%);
 }
 table {
     border-spacing: 0;
@@ -183,22 +183,23 @@ abbr,acronym { border: 0;
 	display:inline-block;
 	margin: 10px;
 	color: rgb(255, 255, 255);
-	/* background:rgba(255, 255, 255, 0); */
+	/* background:rgba(255, 255, 255, 0);  */
 	/* background: rgba(255,255,255, 0.5); */
 	/* -webkit-border-radius: 10px; */
-            /* border-radius: 10px; */
+    /* border-radius: 10px; */
 }
 #menu li.active{
 	/* background:#666; */
-	/* background: rgb(255, 255, 255); */
+	background: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 }
 #menu li a{
 	text-decoration:none;
-	color: #b09bd9c0
+	/* color: #b09bd9c0 */
+	color: rgb(255, 255, 255);
 }
 #menu li.active a:hover{
-	/* color: #000; */
+	color: #000;
 }
 #menu li:hover{
 	background: rgba(255, 255, 255, 0.007);
@@ -209,7 +210,8 @@ abbr,acronym { border: 0;
 	display:block;
 }
 #menu li.active a{
-	color: #fff;
+	color:black;
+	background:white;
 }
 #menu{
 	font-family: 'Roboto', sans-serif;
@@ -246,7 +248,7 @@ body{
 	font-weight: lighter;
 	margin: 40px;
 
-	color: hsla(260, 45%, 73%, 0.733);
+	color: hsl(0, 0%, 50%);
 }
 .wrap{
 	margin-left: auto;
